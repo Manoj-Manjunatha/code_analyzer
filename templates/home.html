@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="csrf-token" content="{{ csrf_token() }}">
+	<title>Code Analyzer</title>
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/styles.css">
+</head>
+<body>
+
+	<div class="container">
+		<h1 class="text-center">Code Analyzer</h1>
+	</div>
+	<div id='source-code-block' class="container text-center">
+		<textarea placeholder="Enter your Python code here." id="source-code"></textarea>
+		<div>
+			<button class="btn btn-primary" id="source-code-sumbit">Submit</button>
+		</div>
+	</div>
+	<div class="container" id="results-block"></div>
+	<script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="static/js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="static/js/script.js"></script>
+</body>
+</html>

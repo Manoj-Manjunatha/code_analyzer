@@ -1,0 +1,37 @@
+#source-code-block textarea{
+	width: 70%;
+    height: 400px;
+}
+#results-block .no-errors{
+	margin: 10px;
+	color: #038e03;
+	font-size: 20px;
+}
+#results-block .errors{
+    border: 1px solid #d0cfcf;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#results-block .errors .src-text{
+	font-size: 12px;
+    font-family: monospace;
+}
+
+#results-block .errors .err-msg{
+	font-size: 16px;
+    font-family: sans-serif;
+}
+#results-block .errors .err-id{
+	font-size: 14px;
+	color: #bf0707;
+}
+#results-block .errors .line-num{
+	color: #8a8a8a;
+}
+#results-block .errors .src-text{
+	background-color: #ffc7c7;
+    padding-right: 5px;
+    padding-left: 5px;
+}
